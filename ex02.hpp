@@ -19,8 +19,8 @@ public:
 
     T multiply() { return num1 * num2; }
 
-    T divide() {
-        if (num2 != 0)
+    double divide() {
+       
             return num1 / num2;
         
     }
