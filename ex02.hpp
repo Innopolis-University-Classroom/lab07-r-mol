@@ -20,9 +20,11 @@ public:
     T multiply() { return num1 * num2; }
 
     T divide() {
-        if (num2 != 0)
+        if (num2 != 0){
             return num1 / num2;
-        else
+        }
+        else{
             return "erorr";
+        }
     }
 };
